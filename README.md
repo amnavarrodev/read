@@ -49,16 +49,7 @@ $$
 >genérico
 ```mermaid
 graph LR
-_h((Home)) --> _t(papel blanco ERC20) -->_h
-_h((Home)) --> _n(papel blanco ERC721) -->_h
-_j(juegos) --> _h
-_j --> _g1(SkyBot) --> _j
-_g1 --> _h
-_g2 --> _h
-_g3 --> _h
-_j --> _g2(SkyFast) --> _j
-_j --> _g3(SkyAir) --> _j 
-_h --> _m(Market) --> _i(inventario) --> _vv(venta) --> _m
-_m --> _cc(compra) --> _i --> _cc
-_vv --> _i
+_h((Home)) --> _t(papel blanco ERC20) -->_h;_h((Home)) --> _n(papel blanco ERC721) -->_h
+_j(juegos) --> _h;_j --> _g1(SkyBot) --> _j;_g1 --> _h;_g2 --> _h;_g3 --> _h
+_j --> _g2(SkyFast) --> _j;_j --> _g3(SkyAir) --> _j;_h --> _m(Market) --> _i(inventario) --> _vv(venta) --> _m;_m --> _cc(compra) --> _i --> _cc;_vv --> _i
 ```
